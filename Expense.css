@@ -1,0 +1,153 @@
+body{
+    background-color:#020024;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.expense-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    border: white;
+}
+.heading{
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20PX;
+    margin-top: 20px;
+    padding: 20px;
+}
+.cont{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+   margin-left: 150px;
+    margin-top: 20px;
+ 
+}
+.form th,td{
+    color: black;
+}
+.form-container {
+   
+    border: burlywood
+}
+.table-container {
+    width: 70%;
+    border: white;
+ 
+}
+.title{
+    width: 320px;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 20px;
+   
+}
+.form {
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 5px;
+    
+    color: black;
+}
+
+
+input {
+    color:black;
+    width: 300px;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 20px;
+   border-color:black;
+}
+
+
+.button {
+    display: flex;
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #4caf50; 
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+
+}
+
+.button:hover {
+  background-color: green;
+}
+
+
+.expense-table {
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.expense-table th,td {
+    font-size: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+    color: white;
+  
+}
+
+.expense-table th {
+  
+    font-weight: bold;
+    color: #f9f9f9;
+}
+
+
+.expense-table tr:hover {
+    background-color:black; 
+}
+
+
+h4 {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 170px;
+}
+.edit{
+    width: 100px;
+    height: 40px;
+    color:white;
+    background-color: #4caf50;
+    font-size: 16px;
+    gap: 20px;
+   
+    border: none;
+}
+.delete{
+    width: 100px;
+    height: 40px;
+    color:white;
+    background-color:red;
+    font-size: 16px;
+    gap: 20px;
+    margin-left: 20px;
+    border: none;
+}
+.total{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
+}
+span{
+    font-weight: 22 rem;
+    color:#4caf50;
+    gap: 10px;
+    padding-left: 9px;
+}
